@@ -18,6 +18,7 @@ Para poder realizar pruebas se puede utilizar la herramienta [Postman](https://w
 
 ## Otros servicios
 - Generar fichero PDF con el listado de obras: localhost:8081/api/pdfreport
+- Consulta autores de la BVMC al repositorio Wikidata: http://localhost:8081/api/authorsbvmc
   
 
 ## Licencia y términos de uso
