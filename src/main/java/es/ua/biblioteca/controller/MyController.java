@@ -2,6 +2,7 @@ package es.ua.biblioteca.controller;
 
 import es.ua.biblioteca.model.Book;
 import es.ua.biblioteca.service.IBookService;
+import es.ua.biblioteca.service.WikidataService;
 import es.ua.biblioteca.util.GeneratePdfReport;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,9 @@ public class MyController {
 
     @Autowired
     private IBookService bookService;
+    
+    @Autowired
+    private WikidataService wikidataService;
     
     @RequestMapping(value = "/book/{id}")
     public Book getBook(@PathVariable long id) throws Exception {
@@ -85,5 +89,11 @@ public class MyController {
                 .headers(headers)
                 .contentType(MediaType.APPLICATION_PDF)
                 .body(new InputStreamResource(bis));
+    }
+    
+    @RequestMapping("/authorsbvmc")
+    public String getAuthorsWikidata() {
+    	return wikidataService.getAuthors(10);
+    	
     }
 }
