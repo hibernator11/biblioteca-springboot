@@ -5,7 +5,7 @@ Este proyecto se ha creado para la asignatura [Tecnologías de Internet Orientad
 ## Configuración
 En el fichero ```src/main/resources/application.properties``` se puede configurar el acceso a la base de datos mysql para el almacenamiento de los libros del catálogo.
 
-## URLS
+## API REST
 
 El proyecto proporciona los siguientes patrones de URL para dar acceso al API REST:
 
@@ -16,6 +16,9 @@ El proyecto proporciona los siguientes patrones de URL para dar acceso al API RE
 
 Para poder realizar pruebas se puede utilizar la herramienta [Postman](https://www.postman.com/)
 
+## Otros servicios
+- Generar fichero PDF con el listado de obras: localhost:8081/api/pdfreport
+  
 
 ## Licencia y términos de uso
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.
