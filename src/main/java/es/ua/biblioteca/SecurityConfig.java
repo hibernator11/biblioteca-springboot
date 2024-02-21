@@ -29,14 +29,24 @@ public class SecurityConfig {
 
         return new InMemoryUserDetailsManager(user, admin);
     }
-
+    
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+         
         http.authorizeRequests()
-            .anyRequest()
-            .authenticated()
-            .and()
-            .httpBasic();
+          .antMatchers("/login").permitAll()
+          .antMatchers("/**").hasAnyRole("USER", "ADMIN")
+          .and()
+            .formLogin()
+            .failureUrl("/login")
+            .permitAll()
+          .and()
+            .logout()
+            .logoutSuccessUrl("/login")
+            .invalidateHttpSession(true)
+            .deleteCookies("JSESSIONID")
+            .permitAll();
+        
         return http.build();
     }
 
