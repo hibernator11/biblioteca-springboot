@@ -21,6 +21,7 @@ Para poder realizar pruebas se puede utilizar la herramienta [Postman](https://w
 - Consulta autores de la [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) al repositorio [Wikidata](https://query.wikidata.org/): localhost:8081/api/authorsbvmc
 
 ## Posibles mejoras
+- Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
 - Parametrizar número de resultados de la sentencia SPARQL
 - Modificar la sentencia SPARQL para recuperar otro tipo de contenido a partir del repositorio de Wikidata. Para ello podéis consultar información sobre cómo [crear consultas SPARQL](https://data.cervantesvirtual.com/noticia/tutorial-de-inicio-a-sparql), [ejemplos de Wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/es) y [otras iniciativas](https://github.com/hibernator11/hdh-compartir-pantalla-2023). 
 
