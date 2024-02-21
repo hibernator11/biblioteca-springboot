@@ -5,6 +5,8 @@ Este proyecto se ha creado para la asignatura [Tecnologías de Internet Orientad
 ## Configuración
 En el fichero ```src/main/resources/application.properties``` se puede configurar el acceso a la base de datos mysql para el almacenamiento de los libros del catálogo.
 
+El proyecto incluye la [librería Jena](https://jena.apache.org) como dependencia en el fichero ```pom.xml``` para el uso de SPARQL.
+
 ## API REST
 
 El proyecto proporciona los siguientes patrones de URL para dar acceso al API REST:
