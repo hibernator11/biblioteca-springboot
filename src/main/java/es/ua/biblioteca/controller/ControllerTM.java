@@ -19,12 +19,12 @@ public class ControllerTM {
 	@Autowired
     private IBookService bookService;
 	
-	@RequestMapping("/libros")
+	@RequestMapping("/books")
 	public String libros(Model modelo) {
 		
-		List<Book> libros = bookService.findAll();
+		List<Book> books = bookService.findAll();
 
-		modelo.addAttribute("libros", libros);
+		modelo.addAttribute("books", books);
 		return "biblioteca";
 	}
 	
