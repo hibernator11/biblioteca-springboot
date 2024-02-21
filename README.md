@@ -15,3 +15,7 @@ El proyecto proporciona los siguientes patrones de URL para dar acceso al API RE
 - Recuperar libro (GET): localhost:8081/api/book/{ID}
 
 Para poder realizar pruebas se puede utilizar la herramienta [Postman](https://www.postman.com/)
+
+
+## Licencia y términos de uso
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.
