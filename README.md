@@ -7,7 +7,7 @@ En el fichero ```src/main/resources/application.properties``` se puede configura
 
 El proyecto incluye la [librería Jena](https://jena.apache.org) como dependencia en el fichero ```pom.xml``` para el uso de SPARQL.
 
-Por defecto, la aplicación solicita el login. El usuario es ```user``` y el password ```password```. Se puede comprobar en el fichero ```SecurityConfig```.
+Por defecto, la aplicación solicita el login. El usuario es ```user``` y el password ```password```. Se puede comprobar en el fichero ```src/main/java/SecurityConfig```.
 
 El fichero ```pom.xml``` incluye las versiones de las librerías utilizadas en este proyecto.
 
