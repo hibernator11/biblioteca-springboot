@@ -30,7 +30,8 @@ Las vistas que proporciona la aplicación son las siguientes:
 - localhost:8081/login
 - localhost:8081/logout
 - Listado de libros: localhost:8081/books
-- Formulario para crear un libro: http://localhost:8081/createBook
+- Formulario para crear un libro: localhost:8081/createBook
+- Búsqueda: localhost:8081/searchBook
 
 ## Acceso a Wikidata
 El proyecto proporciona un servicio para recuperar información de Wikidata. Se utiliza la [siguiente sentencia SPARQL](https://w.wiki/9F33):
