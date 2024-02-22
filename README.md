@@ -32,6 +32,20 @@ Las vistas que proporciona la aplicación son las siguientes:
 - Listado de libros: localhost:8081/books
 - Formulario para crear un libro: http://localhost:8081/createBook
 
+## Acceso a Wikidata
+El proyecto proporciona un servicio para recuperar información de Wikidata. Se utiliza la [siguiente sentencia SPARQL](https://w.wiki/9F33):
+
+```
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX wikibase: <http://wikiba.se/ontology#> 
+PREFIX bd: <http://www.bigdata.com/rdf#> 
+SELECT DISTINCT ?autor ?autorLabel 
+WHERE { 
+  ?autor wdt:P2799 ?idbvmc. 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "es" } 
+} LIMIT 10
+```
+
 ## Posibles mejoras
 - Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
 - Parametrizar número de resultados de la sentencia SPARQL
