@@ -9,6 +9,8 @@ El proyecto incluye la [librería Jena](https://jena.apache.org) como dependenci
 
 Por defecto, la aplicación solicita el login. El usuario es ```user``` y el password ```password```. Se puede comprobar en el fichero ```SecurityConfig```.
 
+El fichero ```pom.xml``` incluye las versiones de las librerías utilizadas en este proyecto.
+
 ## API REST
 
 El proyecto proporciona los siguientes patrones de URL para dar acceso al API REST:
