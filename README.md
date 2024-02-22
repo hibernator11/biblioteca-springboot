@@ -54,6 +54,7 @@ WHERE {
 - Añadir CSS a las plantillas de Thymeleaf
 - Añadir nuevas propiedades a la entidad libro
 - Añadir el identificador al listado de libros
+- Modificar el formulario de búsqueda para poder buscar por otros atributos
 
 ## Seguridad
 - https://stackoverflow.com/questions/52363487/what-is-the-reason-to-disable-csrf-in-spring-boot-web-application
