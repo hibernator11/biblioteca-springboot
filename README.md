@@ -50,13 +50,15 @@ WHERE {
 ```
 
 ## Posibles mejoras
-- Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
-- Parametrizar número de resultados de la sentencia SPARQL
-- Modificar la sentencia SPARQL para recuperar otro tipo de contenido a partir del repositorio de Wikidata. Para ello podéis consultar información sobre cómo [crear consultas SPARQL](https://data.cervantesvirtual.com/noticia/tutorial-de-inicio-a-sparql), [ejemplos de Wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/es) y [otras iniciativas](https://github.com/hibernator11/hdh-compartir-pantalla-2023).
+
 - Añadir CSS a las plantillas de Thymeleaf
 - Añadir nuevas propiedades a la entidad libro
 - Añadir el identificador al listado de libros
 - Modificar el formulario de búsqueda para poder buscar por otros atributos
+- Ofrecer la posibilidad de borrar libros desde los listados
+- Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
+- Parametrizar número de resultados de la sentencia SPARQL
+- Modificar la sentencia SPARQL para recuperar otro tipo de contenido a partir del repositorio de Wikidata. Para ello podéis consultar información sobre cómo [crear consultas SPARQL](https://data.cervantesvirtual.com/noticia/tutorial-de-inicio-a-sparql), [ejemplos de Wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/es) y [otras iniciativas](https://github.com/hibernator11/hdh-compartir-pantalla-2023).
 
 ## Seguridad
 - https://stackoverflow.com/questions/52363487/what-is-the-reason-to-disable-csrf-in-spring-boot-web-application
