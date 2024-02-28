@@ -53,7 +53,7 @@ WHERE {
 } LIMIT 10
 ```
 
-## Posibles mejoras
+## Posibles mejoras para el proyecto
 
 - Añadir CSS a las plantillas de Thymeleaf
 - Añadir nuevas vistas Thymeleaf
