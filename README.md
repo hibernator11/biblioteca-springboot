@@ -37,6 +37,8 @@ Las vistas Thymeleaf que proporciona la aplicación a través del controlador *C
 - Formulario para crear un libro: localhost:8081/createBook
 - Búsqueda: localhost:8081/searchBook
 
+Todas las vistas se comunican con la capa de servicios que proporciona el proyecto.
+
 ## Acceso a Wikidata
 El proyecto proporciona un servicio para recuperar información de Wikidata. Se utiliza la [siguiente sentencia SPARQL](https://w.wiki/9F33):
 
