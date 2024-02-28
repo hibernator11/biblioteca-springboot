@@ -52,9 +52,11 @@ WHERE {
 ## Posibles mejoras
 
 - Añadir CSS a las plantillas de Thymeleaf
-- Añadir nuevas propiedades a la entidad libro
+- Añadir nuevas vistas Thymeleaf
+- Añadir nuevas propiedades a la entidad libro (enlaces externo, fecha publicación, notas sobre la obra, portada)
 - Añadir el identificador al listado de libros
-- Modificar el formulario de búsqueda para poder buscar por otros atributos
+- Proporcionar un botón en una vista Thymeleaf que realice la llamada al servicio de generación de fichero pdf (localhost:8081/api/pdfreport)
+- Modificar el formulario de búsqueda para poder buscar por otros atributos (p.ej. nombre del autor)
 - Ofrecer la posibilidad de borrar libros desde los listados
 - Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
 - Parametrizar número de resultados de la sentencia SPARQL
