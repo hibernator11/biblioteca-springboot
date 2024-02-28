@@ -26,8 +26,8 @@ Para poder realizar pruebas se puede utilizar la herramienta [Postman](https://w
 - Generar fichero PDF con el listado de obras: localhost:8081/api/pdfreport
 - Consulta autores de la [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) al repositorio [Wikidata](https://query.wikidata.org/): localhost:8081/api/authorsbvmc
 
-## Thymeleaf
-Las vistas que proporciona la aplicación son las siguientes:
+## Vistas Thymeleaf
+Las vistas Thymeleaf que proporciona la aplicación a través del controlador *ControllerTM* son las siguientes:
 
 - localhost:8081/login
 - localhost:8081/logout
