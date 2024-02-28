@@ -38,12 +38,12 @@ public class SecurityConfig {
           .and()
           .csrf().disable()
           .authorizeRequests()
-          .antMatchers(HttpMethod.DELETE, "/api/**").permitAll()
+          .antMatchers(HttpMethod.DELETE, "/api/**").permitAll() // primero damos permisos al API
           .antMatchers(HttpMethod.PUT, "/api/**").permitAll()
           .antMatchers(HttpMethod.POST, "/api/**").permitAll()
           .antMatchers(HttpMethod.GET, "/api/**").permitAll()
-          .antMatchers("/login").permitAll()
-          .antMatchers("/**").hasAnyRole("USER", "ADMIN")
+          .antMatchers("/login").permitAll() // permitimos acceso a login
+          .antMatchers("/**").hasAnyRole("USER", "ADMIN") // a partir del login cualquier user debe tener estos roles
           .and()
             .formLogin()
             .failureUrl("/login")
@@ -51,8 +51,6 @@ public class SecurityConfig {
           .and()
             .logout()
             .logoutSuccessUrl("/login")
-            .invalidateHttpSession(true)
-            .deleteCookies("JSESSIONID")
             .permitAll();
     	
         return http.build();
