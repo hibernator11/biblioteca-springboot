@@ -65,6 +65,7 @@ WHERE {
 - Modificar el aspecto del fichero PDF con el listado de obras: localhost:8081/api/pdfreport
 - Parametrizar número de resultados de la sentencia SPARQL
 - Modificar la sentencia SPARQL para recuperar otro tipo de contenido a partir del repositorio de Wikidata. Para ello podéis consultar información sobre cómo [crear consultas SPARQL](https://data.cervantesvirtual.com/noticia/tutorial-de-inicio-a-sparql), [ejemplos de Wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/es) y [otras iniciativas](https://github.com/hibernator11/hdh-compartir-pantalla-2023).
+- Crear una vista Thymeleaf para mostrar los resultados de la llamada a Wikidata (localhost:8081/api/authorsbvmc)
 
 ## Seguridad
 - https://stackoverflow.com/questions/52363487/what-is-the-reason-to-disable-csrf-in-spring-boot-web-application
