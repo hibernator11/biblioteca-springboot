@@ -1,5 +1,6 @@
 package es.ua.biblioteca.model;
 
+import java.util.Date;
 import java.util.Objects;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,6 +19,8 @@ public class Book {
     private String title;
     
     private String author;
+    
+    private Date publication;
 
     public Book() {
     }
@@ -88,6 +91,13 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-    
+
+	public Date getPublication() {
+		return publication;
+	}
+
+	public void setPublication(Date publication) {
+		this.publication = publication;
+	}
     
 }
