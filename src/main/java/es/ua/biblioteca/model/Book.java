@@ -1,12 +1,10 @@
 package es.ua.biblioteca.model;
 
+import jakarta.persistence.*;
+
 import java.util.Date;
 import java.util.Objects;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
 
 @Entity
 @Table(name = "books")

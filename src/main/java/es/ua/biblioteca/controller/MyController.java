@@ -94,6 +94,5 @@ public class MyController {
     @RequestMapping("/authorsbvmc")
     public String getAuthorsWikidata() {
     	return wikidataService.getAuthors(10);
-    	
     }
 }
