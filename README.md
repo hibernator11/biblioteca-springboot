@@ -71,7 +71,7 @@ WHERE {
 
 <img src="https://github.com/msarfer/TION/raw/main/resultado_sparql.PNG" width="50%">  
 
-- Se implementó un servicio que consulta Wikidata utilizando SPARQL para obtener información sobre autores vinculados a la Biblioteca Virtual Miguel de Cervantes y que tengan relación con el género de ciencia ficción: https://github.com/jrodriguez2007/tion-proyecto-biblioteca
+- Servicio que consulta Wikidata utilizando SPARQL para obtener información sobre autores vinculados a la Biblioteca Virtual Miguel de Cervantes que tengan relación con el género de ciencia ficción: https://github.com/jrodriguez2007/tion-proyecto-biblioteca
 
 <img src="https://github.com/jrodriguez2007/tion-proyecto-biblioteca/raw/main/images/capturas/Image-06.jpg" width="50%">
 
