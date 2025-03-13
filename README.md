@@ -67,7 +67,7 @@ WHERE {
 ## Implementaciones de alumnos del curso 2024-2025
 
 
-- Este proyecto es una aplicación Spring Boot que actúa como intermediario entre el usuario y la base de conocimientos de Wikidata. Utiliza consultas SPARQL para recuperar datos estructurados sobre libros (títulos, autores, fechas de publicación, géneros, etc.).
+- Este proyecto es una aplicación Spring Boot que actúa como intermediario entre el usuario y la base de conocimientos de Wikidata. Utiliza consultas SPARQL para recuperar datos estructurados sobre libros (títulos, autores, fechas de publicación, géneros, etc.): https://github.com/msarfer/TION
 
 <img src="https://github.com/msarfer/TION/raw/main/resultado_sparql.PNG" width="50%">  
 
