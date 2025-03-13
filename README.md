@@ -64,5 +64,17 @@ WHERE {
 - Crear una vista Thymeleaf para mostrar los resultados de la llamada a Wikidata (localhost:8081/api/authorsbvmc)
 - Añadir sistema de login con usuarios
 
+## Implementaciones de alumnos del curso 2024-2025
+
+
+- Este proyecto es una aplicación Spring Boot que actúa como intermediario entre el usuario y la base de conocimientos de Wikidata. Utiliza consultas SPARQL para recuperar datos estructurados sobre libros (títulos, autores, fechas de publicación, géneros, etc.).
+
+<img src="https://github.com/msarfer/TION/raw/main/resultado_sparql.PNG" witdh="50%">  
+
+- Se implementó un servicio que consulta Wikidata utilizando SPARQL para obtener información sobre autores vinculados a la Biblioteca Virtual Miguel de Cervantes y que tengan relación con el género de ciencia ficción: https://github.com/jrodriguez2007/tion-proyecto-biblioteca
+
+<img src="https://github.com/jrodriguez2007/tion-proyecto-biblioteca/raw/main/images/capturas/Image-06.jpg" width="50%">
+
+
 ## Licencia y términos de uso
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.
