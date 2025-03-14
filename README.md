@@ -66,7 +66,6 @@ WHERE {
 
 ## Implementaciones de alumnos del curso 2024-2025
 
-
 - Este proyecto es una aplicación Spring Boot que actúa como intermediario entre el usuario y la base de conocimientos de Wikidata. Utiliza consultas SPARQL para recuperar datos estructurados sobre libros (títulos, autores, fechas de publicación, géneros, etc.): https://github.com/msarfer/TION
 
 <img src="https://github.com/msarfer/TION/raw/main/resultado_sparql.PNG" width="50%">  
@@ -74,6 +73,8 @@ WHERE {
 - Servicio que consulta Wikidata utilizando SPARQL para obtener información sobre autores vinculados a la Biblioteca Virtual Miguel de Cervantes que tengan relación con el género de ciencia ficción: https://github.com/jrodriguez2007/tion-proyecto-biblioteca
 
 <img src="https://github.com/jrodriguez2007/tion-proyecto-biblioteca/raw/main/images/capturas/Image-06.jpg" width="50%">
+
+- Ejemplo de llamada al API de Wikidata para realizar una consulta que retorna autoras relacionadas con la Biblioteca Virtual Miguel de Cervantes y que tengan el atributo de escritoras en la biblioteca: https://github.com/DayroB1/Proyecto-Biblioteca
 
 
 ## Licencia y términos de uso
